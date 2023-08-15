@@ -30,21 +30,25 @@ replace (
 require (
 	fbc/cwf/radius v0.0.0
 	fbc/lib/go/radius v0.0.0-00010101000000-000000000000
-	github.com/docker/docker v1.13.1
+	github.com/docker/docker v20.10.24+incompatible
 	github.com/fiorix/go-diameter/v4 v4.0.4
 	github.com/go-openapi/swag v0.19.15
 	github.com/go-redis/redis v6.15.5+incompatible
 	github.com/golang/glog v0.0.0-20160126235308-23def4e6c14b
 	github.com/golang/protobuf v1.5.2
+	github.com/moby/term v0.5.0 // indirect
+	github.com/morikuni/aec v1.0.0 // indirect
 	github.com/onsi/ginkgo v1.14.0 // indirect
+	github.com/opencontainers/image-spec v1.0.2 // indirect
 	github.com/pkg/errors v0.9.1
 	github.com/prometheus/client_golang v1.11.0
 	github.com/shirou/gopsutil/v3 v3.21.5
 	github.com/sparrc/go-ping v0.0.0-20190613174326-4e5b6552494c
 	github.com/stretchr/testify v1.7.0
 	github.com/vishvananda/netlink v1.1.0
-	golang.org/x/crypto v0.0.0-20210921155107-089bfa567519
+	golang.org/x/crypto v0.1.0
 	google.golang.org/grpc v1.33.2
+	gotest.tools/v3 v3.5.0 // indirect
 	magma/cwf/cloud/go v0.0.0-00010101000000-000000000000
 	magma/feg/cloud/go/protos v0.0.0
 	magma/feg/gateway v0.0.0-00010101000000-000000000000
