@@ -31,10 +31,10 @@ require (
 	github.com/go-sql-driver/mysql v1.6.0
 	github.com/gofrs/uuid v4.0.0+incompatible
 	github.com/gogf/gf v1.16.6
-	github.com/golang/glog v0.0.0-20160126235308-23def4e6c14b
-	github.com/golang/protobuf v1.5.0
-	github.com/google/go-cmp v0.5.6
-	github.com/google/uuid v1.1.1
+	github.com/golang/glog v1.1.0
+	github.com/golang/protobuf v1.5.3
+	github.com/google/go-cmp v0.5.9
+	github.com/google/uuid v1.3.0
 	github.com/hashicorp/go-multierror v1.0.0
 	github.com/influxdata/tdigest v0.0.1
 	github.com/labstack/echo v3.3.10+incompatible
@@ -43,12 +43,12 @@ require (
 	github.com/pkg/errors v0.9.1
 	github.com/prometheus/client_golang v1.5.1
 	github.com/prometheus/common v0.9.1
-	github.com/stretchr/testify v1.7.0
+	github.com/stretchr/testify v1.8.3
 	github.com/thoas/go-funk v0.7.0
 	github.com/warthog618/sms v0.3.0
-	golang.org/x/net v0.0.0-20210520170846-37e1c6afe023
-	google.golang.org/genproto v0.0.0-20190819201941-24fa4b261c55
-	google.golang.org/grpc v1.31.0
+	golang.org/x/net v0.9.0
+	google.golang.org/genproto v0.0.0-20230410155749-daa745c078e1
+	google.golang.org/grpc v1.56.3
 	gopkg.in/DATA-DOG/go-sqlmock.v1 v1.3.0
 	magma/feg/cloud/go v0.0.0
 	magma/orc8r/cloud/go v0.0.0
