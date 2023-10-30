@@ -24,7 +24,7 @@ require (
 	github.com/Microsoft/go-winio v0.4.14 // indirect
 	github.com/bmatcuk/doublestar v1.3.4
 	github.com/docker/distribution v2.7.1+incompatible // indirect
-	github.com/docker/docker v1.13.1
+	github.com/docker/docker v24.0.7+incompatible
 	github.com/docker/go-connections v0.4.0 // indirect
 	github.com/emakeev/snowflake v0.0.0-20200206205012-767080b052fe
 	github.com/facebookincubator/prometheus-configmanager v0.0.0-20200717220759-a8282767b087
@@ -37,7 +37,7 @@ require (
 	github.com/go-swagger/go-swagger v0.21.0
 	github.com/golang/glog v0.0.0-20160126235308-23def4e6c14b
 	github.com/golang/protobuf v1.3.3
-	github.com/google/go-cmp v0.5.5
+	github.com/google/go-cmp v0.5.9
 	github.com/google/uuid v1.1.1
 	github.com/grpc-ecosystem/go-grpc-prometheus v1.2.0
 	github.com/hashicorp/go-multierror v1.0.0
@@ -48,8 +48,11 @@ require (
 	github.com/lib/pq v1.2.0
 	github.com/mattn/go-colorable v0.1.8 // indirect
 	github.com/mattn/go-sqlite3 v1.14.9
+	github.com/moby/term v0.5.0 // indirect
+	github.com/morikuni/aec v1.0.0 // indirect
 	github.com/olivere/elastic/v7 v7.0.6
 	github.com/opencontainers/go-digest v1.0.0 // indirect
+	github.com/opencontainers/image-spec v1.0.2 // indirect
 	github.com/ory/go-acc v0.2.6
 	github.com/pkg/errors v0.9.1
 	github.com/prometheus/alertmanager v0.17.0
@@ -64,13 +67,13 @@ require (
 	github.com/thoas/go-funk v0.7.0
 	github.com/vektra/mockery v0.0.0-20181123154057-e78b021dcbb5
 	github.com/wadey/gocovmerge v0.0.0-20160331181800-b5bfa59ec0ad
-	golang.org/x/crypto v0.0.0-20200622213623-75b288015ac9
-	golang.org/x/net v0.0.0-20201021035429-f5854403a974
-	golang.org/x/sys v0.0.0-20210615035016-665e8c7367d1 // indirect
-	golang.org/x/tools v0.1.0
+	golang.org/x/crypto v0.1.0
+	golang.org/x/net v0.1.0
+	golang.org/x/tools v0.2.0
 	google.golang.org/grpc v1.31.0
 	gopkg.in/DATA-DOG/go-sqlmock.v1 v1.3.0
 	gopkg.in/yaml.v2 v2.4.0
+	gotest.tools/v3 v3.5.1 // indirect
 	k8s.io/api v0.0.0-20191016110408-35e52d86657a
 	k8s.io/apimachinery v0.0.0-20191004115801-a2eda9f80ab8
 	k8s.io/client-go v11.0.1-0.20190409021438-1a26190bd76a+incompatible
